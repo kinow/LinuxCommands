@@ -1,0 +1,6 @@
+#JSGF V1.0;
+grammar linux;
+public <topRule> = <rule0>;
+
+
+<rule0> = open nano;
