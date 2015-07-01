@@ -9,56 +9,56 @@ open #editor;
 	#editor { 'execute2(' #editor ');' }
 @
 
-#city() = [Alexandra] | [Ashburton] | [Auckland] | [Blenheim] | [Chatham Island] | [Christchurch] | [Dannevirke] | [Dargaville] | [Dunedin] | [Franz Josef] | [Gisborne] | [Greymouth] | [Hamilton] | [Hastings] | [Hokitika] | [Invercargill] | [Kaikoura] | [Kaitaia] | [Kerikeri] | [Lake Tekapo] | [Levin] | [Masterton] | [Motueka] | [Murchison] | [Mystery Creek] | [Napier] | [Nelson] | [New Plymouth] | [Oamaru] | [Palmerston North] | [Paraparaumu] | [Queenstown] | [Reefton] | [Rotorua] | [Stewart Island] | [Stratford] | [Taupo] | [Tauranga] | [Te Kuiti] | [Thames] | [Timaru] | [Turangi] | [Wellington] | [Westport] | [Whakatane] | [Whanganui] | [Whangarei] | [Whitianga];
+#city() = [alexandra] | [ashburton] | [auckland] | [blenheim] | [chatham island] | [christchurch] | [dannevirke] | [dargaville] | [dunedin] | [franz josef] | [gisborne] | [greymouth] | [hamilton] | [hastings] | [hokitika] | [invercargill] | [kaikoura] | [kaitaia] | [kerikeri] | [lake tekapo] | [levin] | [masterton] | [motueka] | [murchison] | [mystery creek] | [napier] | [nelson] | [new plymouth] | [oamaru] | [palmerston north] | [paraparaumu] | [queenstown] | [reefton] | [rotorua] | [stewart island] | [stratford] | [taupo] | [tauranga] | [te kuiti] | [thames] | [timaru] | [turangi] | [wellington] | [westport] | [whakatane] | [whanganui] | [whangarei] | [whitianga];
 @results
-    0 { 'Alexandra' }
-    1 { 'Ashburton' }
-    2 { 'Auckland' }
-    3 { 'Blenheim' }
-    4 { 'Chatham Island' }
-    5 { 'Christchurch' }
-    6 { 'Dannevirke' }
-    7 { 'Dargaville' }
-    8 { 'Dunedin' }
-    9 { 'Franz Josef' }
-    10 { 'Gisborne' }
-    11 { 'Greymouth' }
-    12 { 'Hamilton' }
-    13 { 'Hastings' }
-    14 { 'Hokitika' }
-    15 { 'Invercargill' }
-    16 { 'Kaikoura' }
-    17 { 'Kaitaia' }
-    18 { 'Kerikeri' }
-    19 { 'Lake Tekapo' }
-    20 { 'Levin' }
-    21 { 'Masterton' }
-    22 { 'Motueka' }
-    23 { 'Murchison' }
-    24 { 'Mystery Creek' }
-    25 { 'Napier' }
-    26 { 'Nelson' }
-    27 { 'New Plymouth' }
-    28 { 'Oamaru' }
-    29 { 'Palmerston North' }
-    30 { 'Paraparaumu' }
-    31 { 'Queenstown' }
-    32 { 'Reefton' }
-    33 { 'Rotorua' }
-    34 { 'Stewart Island' }
-    35 { 'Stratford' }
-    36 { 'Taupo' }
-    37 { 'Tauranga' }
-    38 { 'Te Kuiti' }
-    39 { 'Thames' }
-    40 { 'Timaru' }
-    41 { 'Turangi' }
-    42 { 'Wellington' }
-    43 { 'Westport' }
-    44 { 'Whakatane' }
-    45 { 'Whanganui' }
-    46 { 'Whangarei' }
-    47 { 'Whitianga' }
+    0 { 'alexandra' }
+    1 { 'ashburton' }
+    2 { 'auckland' }
+    3 { 'blenheim' }
+    4 { 'chatham island' }
+    5 { 'christchurch' }
+    6 { 'dannevirke' }
+    7 { 'dargaville' }
+    8 { 'dunedin' }
+    9 { 'franz josef' }
+    10 { 'gisborne' }
+    11 { 'greymouth' }
+    12 { 'hamilton' }
+    13 { 'hastings' }
+    14 { 'hokitika' }
+    15 { 'invercargill' }
+    16 { 'kaikoura' }
+    17 { 'kaitaia' }
+    18 { 'kerikeri' }
+    19 { 'lake tekapo' }
+    20 { 'levin' }
+    21 { 'masterton' }
+    22 { 'motueka' }
+    23 { 'murchison' }
+    24 { 'mystery creek' }
+    25 { 'napier' }
+    26 { 'nelson' }
+    27 { 'new plymouth' }
+    28 { 'oamaru' }
+    29 { 'palmerston north' }
+    30 { 'paraparaumu' }
+    31 { 'queenstown' }
+    32 { 'reefton' }
+    33 { 'rotorua' }
+    34 { 'stewart island' }
+    35 { 'stratford' }
+    36 { 'taupo' }
+    37 { 'tauranga' }
+    38 { 'te kuiti' }
+    39 { 'thames' }
+    40 { 'timaru' }
+    41 { 'turangi' }
+    42 { 'wellington' }
+    43 { 'westport' }
+    44 { 'whakatane' }
+    45 { 'whanganui' }
+    46 { 'whangarei' }
+    47 { 'whitianga' }
 @
 
 (give me | show me | how is | what is) the weather (in | at) #city;

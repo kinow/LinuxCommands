@@ -2,7 +2,7 @@
 grammar linux;
 public <topRule> = <rule0> | <rule1>;
 
-<linux_city> = (Alexandra) | (Ashburton) | (Auckland) | (Blenheim) | (Chatham Island) | (Christchurch) | (Dannevirke) | (Dargaville) | (Dunedin) | (Franz Josef) | (Gisborne) | (Greymouth) | (Hamilton) | (Hastings) | (Hokitika) | (Invercargill) | (Kaikoura) | (Kaitaia) | (Kerikeri) | (Lake Tekapo) | (Levin) | (Masterton) | (Motueka) | (Murchison) | (Mystery Creek) | (Napier) | (Nelson) | (New Plymouth) | (Oamaru) | (Palmerston North) | (Paraparaumu) | (Queenstown) | (Reefton) | (Rotorua) | (Stewart Island) | (Stratford) | (Taupo) | (Tauranga) | (Te Kuiti) | (Thames) | (Timaru) | (Turangi) | (Wellington) | (Westport) | (Whakatane) | (Whanganui) | (Whangarei) | (Whitianga);
+<linux_city> = (alexandra) | (ashburton) | (auckland) | (blenheim) | (chatham island) | (christchurch) | (dannevirke) | (dargaville) | (dunedin) | (franz josef) | (gisborne) | (greymouth) | (hamilton) | (hastings) | (hokitika) | (invercargill) | (kaikoura) | (kaitaia) | (kerikeri) | (lake tekapo) | (levin) | (masterton) | (motueka) | (murchison) | (mystery creek) | (napier) | (nelson) | (new plymouth) | (oamaru) | (palmerston north) | (paraparaumu) | (queenstown) | (reefton) | (rotorua) | (stewart island) | (stratford) | (taupo) | (tauranga) | (te kuiti) | (thames) | (timaru) | (turangi) | (wellington) | (westport) | (whakatane) | (whanganui) | (whangarei) | (whitianga);
 <linux_editor> = (vim) | (nano);
 
 <rule0> = open <linux_editor>;
