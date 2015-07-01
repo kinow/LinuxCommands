@@ -8,4 +8,4 @@ export GST_PLUGIN_PATH=/usr/lib/gstreamer-0.10
 
 python MakeSpeechProject.py linux linux.sps
 
-#python main.py
+python main.py
