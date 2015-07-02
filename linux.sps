@@ -1,14 +1,3 @@
-#editor() = [vim] | [nano];
-@results
-	0 { 'vim' }
-	1 { 'nano' }
-@
-
-open #editor;
-@results
-	#editor { 'execute2(' #editor ');' }
-@
-
 #city() = [alexandra] | [ashburton] | [auckland] | [blenheim] | [chatham island] | [christchurch] | [dannevirke] | [dargaville] | [dunedin] | [franz josef] | [gisborne] | [greymouth] | [hamilton] | [hastings] | [hokitika] | [invercargill] | [kaikoura] | [kaitaia] | [kerikeri] | [lake tekapo] | [levin] | [masterton] | [motueka] | [murchison] | [mystery creek] | [napier] | [nelson] | [new plymouth] | [oamaru] | [palmerston north] | [paraparaumu] | [queenstown] | [reefton] | [rotorua] | [stewart island] | [stratford] | [taupo] | [tauranga] | [te kuiti] | [thames] | [timaru] | [turangi] | [wellington] | [westport] | [whakatane] | [whanganui] | [whangarei] | [whitianga];
 @results
     0 { 'alexandra' }
@@ -63,5 +52,5 @@ open #editor;
 
 (give me | show me | how is | what is) the weather (in | at) #city;
 @results
-	#city { 'weather(' #city ');' }
+	#city { 'weather("' #city '");' }
 @

@@ -1,9 +1,7 @@
 #JSGF V1.0;
 grammar linux;
-public <topRule> = <rule0> | <rule1>;
+public <topRule> = <rule0>;
 
 <linux_city> = (alexandra) | (ashburton) | (auckland) | (blenheim) | (chatham island) | (christchurch) | (dannevirke) | (dargaville) | (dunedin) | (franz josef) | (gisborne) | (greymouth) | (hamilton) | (hastings) | (hokitika) | (invercargill) | (kaikoura) | (kaitaia) | (kerikeri) | (lake tekapo) | (levin) | (masterton) | (motueka) | (murchison) | (mystery creek) | (napier) | (nelson) | (new plymouth) | (oamaru) | (palmerston north) | (paraparaumu) | (queenstown) | (reefton) | (rotorua) | (stewart island) | (stratford) | (taupo) | (tauranga) | (te kuiti) | (thames) | (timaru) | (turangi) | (wellington) | (westport) | (whakatane) | (whanganui) | (whangarei) | (whitianga);
-<linux_editor> = (vim) | (nano);
 
-<rule0> = open <linux_editor>;
-<rule1> = (give me | show me | how is | what is) the weather (in | at) <linux_city>;
+<rule0> = (give me | show me | how is | what is) the weather (in | at) <linux_city>;
