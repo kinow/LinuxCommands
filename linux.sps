@@ -54,3 +54,8 @@
 @results
 	#city { 'weather("' #city '");' }
 @
+
+(open | (show (me)? (the)?) | go to the) [dashboard];
+@results
+    0 {'dashboard();'}
+@

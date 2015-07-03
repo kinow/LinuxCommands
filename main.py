@@ -30,6 +30,12 @@ def weather(s):
 	print("URL: " + url)
 	tn.write("window.location='"+url+"'" + "\n")
 
+def dashboard():
+	print("Opening Dashboard")
+
+def quit():
+	sys.exit(0)
+
 try:
 	recog = SpeakPythonRecognizer(execute, "linux")
 	recog.setDebug(1);
